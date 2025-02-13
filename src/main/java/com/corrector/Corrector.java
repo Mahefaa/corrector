@@ -41,9 +41,13 @@ public class Corrector {
           System.out.println("--------- BEGIN correcting ----------" + std);
           var corrected = evaluateApp(app);
           if (res.containsKey(std)) {
+            System.out.println(std + " has 1 more app " + corrected.name());
             res.get(std).add(corrected);
+          } else {
+            var array = new ArrayList<CorrectedApp>();
+            array.add(corrected);
+            res.put(std, array);
           }
-          res.putIfAbsent(std, new ArrayList<>());
           System.out.println("--------- END correcting ----------" + std);
         });
 

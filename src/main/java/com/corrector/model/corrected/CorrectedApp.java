@@ -6,7 +6,7 @@ import static com.corrector.model.DeployedEnv.EnvType.PROD;
 import java.util.ArrayList;
 import java.util.List;
 
-public record CorrectedApp(String id, List<CorrectedEnv> correctedEnvs) {
+public record CorrectedApp(String name, List<CorrectedEnv> correctedEnvs) {
   public boolean isProdOk() {
     var envs =
         correctedEnvs.stream().filter(env -> PROD.equals(env.deployedEnv().envType())).toList();

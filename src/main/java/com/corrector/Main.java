@@ -15,7 +15,7 @@ public class Main {
     ClasspathResourceLoader resourceLoader = new ClasspathResourceLoader();
     var dbDataProvider = new DbDataProvider(resourceLoader);
     var csvDataProvider = new CsvDataProvider(resourceLoader);
-    var deployedApps = dbDataProvider.apply("prod-jcloudify_apps_2025-02-13_14-53-29.json");
+    var deployedApps = dbDataProvider.apply("prod-jcloudify_apps_2025-02-13_16-59-59.json");
     var students = csvDataProvider.apply("answers_jo_2024_feb13_11_51.csv");
 
     Corrector corrector = new Corrector();

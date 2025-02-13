@@ -35,11 +35,14 @@ public class ScoreWriter {
               return;
             } else if (evaluatedApps.stream()
                 .anyMatch(correctedApp -> correctedApp.isProdOk() && !correctedApp.isPreprodOk())) {
-              newline(printer, std, 2, 1);
+              newline(printer, std, 0, 2);
               return;
             } else if (evaluatedApps.stream()
                 .anyMatch(correctedApp -> !correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
               newline(printer, std, 2, 0);
+              return;
+            } else {
+              newline(printer, std, 0, 0);
               return;
             }
           });
