@@ -5,6 +5,7 @@ import com.corrector.dataproviders.DbDataProvider;
 import com.corrector.fileLoader.ClasspathResourceLoader;
 import com.corrector.model.corrected.CorrectedApp;
 import com.corrector.scoreWriter.ScoreWriter;
+import java.util.List;
 import java.util.Map;
 
 // TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -18,7 +19,7 @@ public class Main {
     var students = csvDataProvider.apply("answers_jo_2024_feb13_11_51.csv");
 
     Corrector corrector = new Corrector();
-    Map<String, CorrectedApp> correctedApps = corrector.computeScoreByStudent(deployedApps);
+    Map<String, List<CorrectedApp>> correctedApps = corrector.computeScoreByStudent(deployedApps);
 
     ScoreWriter scoreWriter = new ScoreWriter();
     scoreWriter.writeScores(students, correctedApps);
