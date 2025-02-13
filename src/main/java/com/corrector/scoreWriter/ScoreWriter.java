@@ -34,11 +34,13 @@ public class ScoreWriter {
               newline(printer, std, 2, 2);
               return;
             } else if (evaluatedApps.stream()
-                .anyMatch(correctedApp -> correctedApp.isProdOk() && !correctedApp.isPreprodOk())) {
+                .anyMatch(
+                    correctedApp -> correctedApp.isProdOk() && (!correctedApp.isPreprodOk()))) {
               newline(printer, std, 0, 2);
               return;
             } else if (evaluatedApps.stream()
-                .anyMatch(correctedApp -> !correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
+                .anyMatch(
+                    correctedApp -> (!correctedApp.isProdOk()) && correctedApp.isPreprodOk())) {
               newline(printer, std, 2, 0);
               return;
             } else {
