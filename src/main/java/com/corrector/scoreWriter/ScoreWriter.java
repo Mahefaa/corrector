@@ -16,44 +16,44 @@ import org.apache.commons.csv.CSVPrinter;
 
 public class ScoreWriter {
 
-    public ScoreWriter() {
-    }
+  public ScoreWriter() {}
 
-    @SneakyThrows
-    public void writeScores(
-            List<CsvUserRecord> students, Map<String, List<CorrectedApp>> evaluatedStudents) {
-        Map<String, List<CorrectedApp>> copy = new HashMap<>(evaluatedStudents);
-        FileWriter sw = new FileWriter(Instant.now().toString() + "_answers.csv");
-        CSVFormat csvFormat = DEFAULT.builder().setHeader("std, preprod, prod").build();
-        try (final CSVPrinter printer = new CSVPrinter(sw, csvFormat)) {
-            students.forEach(student -> copy.putIfAbsent(student.std(), List.of(CorrectedApp.empty())));
-            copy.forEach(
-                    (std, evaluatedApps) -> {
-
-                        if (evaluatedApps.stream().anyMatch(correctedApp -> correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
-                            System.out.println("well done student " + std);
-                            newline(printer, std, 2, 2);
-                            return;
-                        } else if (evaluatedApps.stream().anyMatch(correctedApp -> correctedApp.isProdOk() && !correctedApp.isPreprodOk())) {
-                            newline(printer, std, 2, 1);
-                            return;
-                        } else if (evaluatedApps.stream().anyMatch(correctedApp -> !correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
-                            newline(printer, std, 2, 0);
-                            return;
-                        }
-                    });
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+  @SneakyThrows
+  public void writeScores(
+      List<CsvUserRecord> students, Map<String, List<CorrectedApp>> evaluatedStudents) {
+    Map<String, List<CorrectedApp>> copy = new HashMap<>(evaluatedStudents);
+    FileWriter sw = new FileWriter(Instant.now().toString() + "_answers.csv");
+    CSVFormat csvFormat = DEFAULT.builder().setHeader("std, preprod, prod").build();
+    try (final CSVPrinter printer = new CSVPrinter(sw, csvFormat)) {
+      students.forEach(student -> copy.putIfAbsent(student.std(), List.of(CorrectedApp.empty())));
+      copy.forEach(
+          (std, evaluatedApps) -> {
+            if (evaluatedApps.stream()
+                .anyMatch(correctedApp -> correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
+              System.out.println("well done student " + std);
+              newline(printer, std, 2, 2);
+              return;
+            } else if (evaluatedApps.stream()
+                .anyMatch(correctedApp -> correctedApp.isProdOk() && !correctedApp.isPreprodOk())) {
+              newline(printer, std, 2, 1);
+              return;
+            } else if (evaluatedApps.stream()
+                .anyMatch(correctedApp -> !correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
+              newline(printer, std, 2, 0);
+              return;
+            }
+          });
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 
-    private static void newline(CSVPrinter printer, String std, int preprodScore, int prodScore) {
-        System.out.println(
-                "std : " + std + " preprod? " + preprodScore + " prod? " + prodScore);
-        try {
-            printer.printRecord(std, preprodScore, prodScore);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+  private static void newline(CSVPrinter printer, String std, int preprodScore, int prodScore) {
+    System.out.println("std : " + std + " preprod? " + preprodScore + " prod? " + prodScore);
+    try {
+      printer.printRecord(std, preprodScore, prodScore);
+    } catch (IOException e) {
+      e.printStackTrace();
     }
+  }
 }

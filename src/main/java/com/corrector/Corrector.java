@@ -14,42 +14,43 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Corrector {
-    private final AppCorrector appCorrector;
+  private final AppCorrector appCorrector;
 
-    public Corrector() {
-        this.appCorrector = new AppCorrector();
-    }
+  public Corrector() {
+    this.appCorrector = new AppCorrector();
+  }
 
-    public Map<String, List<CorrectedApp>> computeScoreByStudent(List<DatabaseDeployedAppRecord> dbData) {
-        Map<String, List<CorrectedApp>> res = new HashMap<>();
-        Map<String, App> grouped =
-                dbData.stream()
-                        .collect(
-                                groupingBy(
-                                        DatabaseDeployedAppRecord::std,
-                                        collectingAndThen(
-                                                Collectors.toList(),
-                                                deployedApps ->
-                                                        new App(
-                                                                deployedApps.getFirst().appName(),
-                                                                deployedApps.stream()
-                                                                        .map(a -> new DeployedEnv(a.environmentType(), a.deployedUrl()))
-                                                                        .toList()))));
-        grouped.forEach(
-                (std, app) -> {
-                    System.out.println("--------- BEGIN correcting ----------" + std);
-                    var corrected = evaluateApp(app);
-                    if (res.containsKey(std)) {
-                        res.get(std).add(corrected);
-                    }
-                    res.putIfAbsent(std, new ArrayList<>());
-                    System.out.println("--------- END correcting ----------" + std);
-                });
+  public Map<String, List<CorrectedApp>> computeScoreByStudent(
+      List<DatabaseDeployedAppRecord> dbData) {
+    Map<String, List<CorrectedApp>> res = new HashMap<>();
+    Map<String, App> grouped =
+        dbData.stream()
+            .collect(
+                groupingBy(
+                    DatabaseDeployedAppRecord::std,
+                    collectingAndThen(
+                        Collectors.toList(),
+                        deployedApps ->
+                            new App(
+                                deployedApps.getFirst().appName(),
+                                deployedApps.stream()
+                                    .map(a -> new DeployedEnv(a.environmentType(), a.deployedUrl()))
+                                    .toList()))));
+    grouped.forEach(
+        (std, app) -> {
+          System.out.println("--------- BEGIN correcting ----------" + std);
+          var corrected = evaluateApp(app);
+          if (res.containsKey(std)) {
+            res.get(std).add(corrected);
+          }
+          res.putIfAbsent(std, new ArrayList<>());
+          System.out.println("--------- END correcting ----------" + std);
+        });
 
-        return res;
-    }
+    return res;
+  }
 
-    public CorrectedApp evaluateApp(App app) {
-        return appCorrector.apply(app);
-    }
+  public CorrectedApp evaluateApp(App app) {
+    return appCorrector.apply(app);
+  }
 }

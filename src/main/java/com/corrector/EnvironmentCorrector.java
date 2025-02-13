@@ -30,6 +30,7 @@ public class EnvironmentCorrector implements Function<DeployedEnv, CorrectedEnv>
         return correctedEnv;
       }
     } catch (IOException | InterruptedException e) {
+      System.out.println("EXCEPTION");
       System.out.println(e.getMessage());
     }
 
