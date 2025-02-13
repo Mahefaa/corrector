@@ -1,6 +1,6 @@
-package com.corrector.model.evaluated;
+package com.corrector.model.corrected;
 
-import static com.corrector.model.evaluated.CorrectedEnv.EnvEvaluationResult.OK;
+import static com.corrector.model.corrected.CorrectedEnv.EnvEvaluationResult.OK;
 
 import com.corrector.model.DeployedEnv;
 

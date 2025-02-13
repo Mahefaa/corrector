@@ -1,4 +1,4 @@
-package com.corrector.model.evaluated;
+package com.corrector.model.corrected;
 
 import static com.corrector.model.DeployedEnv.EnvType.PREPROD;
 import static com.corrector.model.DeployedEnv.EnvType.PROD;

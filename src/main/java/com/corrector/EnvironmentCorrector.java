@@ -1,10 +1,10 @@
 package com.corrector;
 
-import static com.corrector.model.evaluated.CorrectedEnv.EnvEvaluationResult.KO;
-import static com.corrector.model.evaluated.CorrectedEnv.EnvEvaluationResult.OK;
+import static com.corrector.model.corrected.CorrectedEnv.EnvEvaluationResult.KO;
+import static com.corrector.model.corrected.CorrectedEnv.EnvEvaluationResult.OK;
 
 import com.corrector.model.DeployedEnv;
-import com.corrector.model.evaluated.CorrectedEnv;
+import com.corrector.model.corrected.CorrectedEnv;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;

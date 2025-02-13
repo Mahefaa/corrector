@@ -3,7 +3,7 @@ package com.corrector;
 import com.corrector.dataproviders.CsvDataProvider;
 import com.corrector.dataproviders.DbDataProvider;
 import com.corrector.fileLoader.ClasspathResourceLoader;
-import com.corrector.model.evaluated.CorrectedApp;
+import com.corrector.model.corrected.CorrectedApp;
 import com.corrector.scoreWriter.ScoreWriter;
 import java.util.Map;
 

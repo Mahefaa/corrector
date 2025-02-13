@@ -3,7 +3,7 @@ package com.corrector.scoreWriter;
 import static org.apache.commons.csv.CSVFormat.DEFAULT;
 
 import com.corrector.model.csv.CsvUserRecord;
-import com.corrector.model.evaluated.CorrectedApp;
+import com.corrector.model.corrected.CorrectedApp;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Instant;

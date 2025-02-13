@@ -6,7 +6,7 @@ import static java.util.stream.Collectors.groupingBy;
 import com.corrector.model.App;
 import com.corrector.model.DeployedEnv;
 import com.corrector.model.db.DatabaseDeployedAppRecord;
-import com.corrector.model.evaluated.CorrectedApp;
+import com.corrector.model.corrected.CorrectedApp;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

@@ -1,8 +1,8 @@
 package com.corrector;
 
 import com.corrector.model.App;
-import com.corrector.model.evaluated.CorrectedApp;
-import com.corrector.model.evaluated.CorrectedEnv;
+import com.corrector.model.corrected.CorrectedApp;
+import com.corrector.model.corrected.CorrectedEnv;
 import java.util.List;
 import java.util.function.Function;
 
