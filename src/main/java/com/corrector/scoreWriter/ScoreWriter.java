@@ -23,9 +23,9 @@ public class ScoreWriter {
       List<CsvUserRecord> students, Map<String, List<CorrectedApp>> evaluatedStudents) {
     Map<String, List<CorrectedApp>> copy = new HashMap<>(evaluatedStudents);
     FileWriter sw = new FileWriter(Instant.now().toString() + "_answers.csv");
-    CSVFormat csvFormat = DEFAULT.builder().setHeader("std, preprod, prod").build();
+    CSVFormat csvFormat = DEFAULT.builder().setHeader("std", "preprod", "prod").build();
+    students.forEach(student -> copy.putIfAbsent(student.std(), List.of(CorrectedApp.empty())));
     try (final CSVPrinter printer = new CSVPrinter(sw, csvFormat)) {
-      students.forEach(student -> copy.putIfAbsent(student.std(), List.of(CorrectedApp.empty())));
       copy.forEach(
           (std, evaluatedApps) -> {
             if (evaluatedApps.stream()
