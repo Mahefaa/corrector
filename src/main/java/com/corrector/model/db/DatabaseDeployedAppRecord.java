@@ -12,4 +12,8 @@ public record DatabaseDeployedAppRecord(
     @JsonProperty("std") String std,
     @JsonProperty("environment_type") DeployedEnv.EnvType environmentType,
     @JsonProperty("deployed_url") URI deployedUrl,
-    @JsonProperty("deployed_at") Instant deployedAt) {}
+    @JsonProperty("deployed_at") Instant deployedAt) {
+  public String stdLowercase() {
+    return std.toLowerCase();
+  }
+}

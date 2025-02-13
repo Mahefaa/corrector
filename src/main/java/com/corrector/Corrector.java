@@ -27,7 +27,7 @@ public class Corrector {
         dbData.stream()
             .collect(
                 groupingBy(
-                    DatabaseDeployedAppRecord::std,
+                    DatabaseDeployedAppRecord::stdLowercase,
                     collectingAndThen(
                         Collectors.toList(),
                         deployedApps ->
