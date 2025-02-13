@@ -1,0 +1,584 @@
+9:20:29 PM: Executing ':com.corrector.Main.main()'...
+
+> Task :compileJava
+> Task :processResources UP-TO-DATE
+> Task :classes
+
+> Task :com.corrector.Main.main()
+chargement des données de la base : prod-jcloudify_apps_2025-02-13_16-59-59.json
+117 données chargées
+chargement des données CSV
+68 données chargées
+--------- début de correction de std22108 ----------
+correction std22108
+Avertissement, nom d'application non-conforme au format attendu std22108
+correction de PROD uri : https://lut6a0in66.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://lut6a0in66.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://iachy3fox2.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://iachy3fox2.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22108 ----------
+--------- début de correction de std22106 ----------
+correction std22106
+Avertissement, nom d'application non-conforme au format attendu std22106
+correction de PREPROD uri : https://wakjtglqhg.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://wakjtglqhg.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://uj7d6c76w2.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://uj7d6c76w2.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22106 ----------
+--------- début de correction de std22029 ----------
+correction std22029
+Avertissement, nom d'application non-conforme au format attendu std22029
+correction de PREPROD uri : https://l14nsjdn2d.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://l14nsjdn2d.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://72thj20gdh.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://72thj20gdh.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22029 ----------
+--------- début de correction de std22027 ----------
+correction hello-std22027
+correction de PROD uri : https://b44a7057dl.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://b44a7057dl.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://p7btlcszf3.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://p7btlcszf3.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22027 ----------
+--------- début de correction de std22105 ----------
+correction std22105
+Avertissement, nom d'application non-conforme au format attendu std22105
+correction de PROD uri : https://95z7cxezr5.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PROD https://95z7cxezr5.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://gyhdsvciwc.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://gyhdsvciwc.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://i3lflx6rnf.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://i3lflx6rnf.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22105 ----------
+--------- début de correction de std22028 ----------
+correction hello-std22028
+correction de PREPROD uri : https://uymwmue68j.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://uymwmue68j.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22028 ----------
+--------- début de correction de std22069 ----------
+correction std22069
+Avertissement, nom d'application non-conforme au format attendu std22069
+correction de PROD uri : https://7ne2jy9xa0.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://7ne2jy9xa0.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://kpkmin6m18.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://kpkmin6m18.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22069 ----------
+--------- début de correction de std22025 ----------
+correction std22025
+Avertissement, nom d'application non-conforme au format attendu std22025
+correction de PREPROD uri : https://03kso75ylg.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://03kso75ylg.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://ad032z84mf.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://ad032z84mf.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22025 ----------
+--------- début de correction de std22103 ----------
+correction helloo-std22103
+Avertissement, nom d'application non-conforme au format attendu helloo-std22103
+correction de PREPROD uri : https://lhf3pfxri9.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PREPROD https://lhf3pfxri9.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://cd01wf9c1f.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://cd01wf9c1f.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://wn7do7vupg.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://wn7do7vupg.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22103 ----------
+--------- début de correction de std22026 ----------
+correction std22026
+Avertissement, nom d'application non-conforme au format attendu std22026
+correction de PREPROD uri : https://8gwo97le91.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://8gwo97le91.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://ykqin2mm5a.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://ykqin2mm5a.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22026 ----------
+--------- début de correction de std21092 ----------
+correction std21092
+Avertissement, nom d'application non-conforme au format attendu std21092
+correction de PREPROD uri : https://eh8mh015w6.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://eh8mh015w6.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std21092 ----------
+--------- début de correction de std22100 ----------
+correction hello-word-std22100
+Avertissement, nom d'application non-conforme au format attendu hello-word-std22100
+correction de PROD uri : https://f4p7bhc3n0.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PROD https://f4p7bhc3n0.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://y9jvrsxgvi.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://y9jvrsxgvi.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22100 ----------
+--------- début de correction de std21099 ----------
+correction std21099
+Avertissement, nom d'application non-conforme au format attendu std21099
+correction de PREPROD uri : https://adton35qr3.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://adton35qr3.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://hzq7828kqf.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://hzq7828kqf.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std21099 ----------
+--------- début de correction de std22101 ----------
+correction std22101
+Avertissement, nom d'application non-conforme au format attendu std22101
+correction de PREPROD uri : https://wkdpg133ji.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://wkdpg133ji.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22101 ----------
+--------- début de correction de std22068 ----------
+correction std22068
+Avertissement, nom d'application non-conforme au format attendu std22068
+correction de PREPROD uri : https://pe7xp1bwsb.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://pe7xp1bwsb.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://7jmqleabu9.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://7jmqleabu9.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22068 ----------
+--------- début de correction de std22065 ----------
+correction secu1-std22065
+Avertissement, nom d'application non-conforme au format attendu secu1-std22065
+correction de PREPROD uri : https://jzuk27bbzf.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://jzuk27bbzf.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://echt5oqkhb.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://echt5oqkhb.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22065 ----------
+--------- début de correction de std22022 ----------
+correction std22022
+Avertissement, nom d'application non-conforme au format attendu std22022
+correction de PREPROD uri : https://ybuw6hq9v6.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PREPROD https://ybuw6hq9v6.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://32m91o6bwc.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://32m91o6bwc.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22022 ----------
+--------- début de correction de std22064 ----------
+correction hello-std22064
+correction de PROD uri : https://hjj9k87ya3.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://hjj9k87ya3.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://2riej0jyke.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://2riej0jyke.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22064 ----------
+--------- début de correction de std22062 ----------
+correction hello-std22062
+correction de PREPROD uri : https://eirvcmh1th.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://eirvcmh1th.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://26cq6plp31.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://26cq6plp31.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22062 ----------
+--------- début de correction de std22017 ----------
+correction std22017
+Avertissement, nom d'application non-conforme au format attendu std22017
+correction de PREPROD uri : https://lpxboqg46a.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://lpxboqg46a.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://a05nqgsyq2.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://a05nqgsyq2.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22017 ----------
+--------- début de correction de std22058 ----------
+correction std22058
+Avertissement, nom d'application non-conforme au format attendu std22058
+correction de PREPROD uri : https://lxkqd1rjvg.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://lxkqd1rjvg.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://wobslm041c.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://wobslm041c.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22058 ----------
+--------- début de correction de std22093 ----------
+correction std22093
+Avertissement, nom d'application non-conforme au format attendu std22093
+correction de PREPROD uri : https://hbv74roola.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://hbv74roola.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://l0pqsau5a5.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://l0pqsau5a5.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22093 ----------
+--------- début de correction de std22056 ----------
+correction std22056
+Avertissement, nom d'application non-conforme au format attendu std22056
+correction de PROD uri : https://r3xe677375.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://r3xe677375.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://91bgvrifej.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PROD https://91bgvrifej.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://ba20wmb7tj.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://ba20wmb7tj.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22056 ----------
+--------- début de correction de std22098 ----------
+correction std22098
+Avertissement, nom d'application non-conforme au format attendu std22098
+correction de PREPROD uri : https://i6bebrwg8k.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://i6bebrwg8k.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://lyuzgtah13.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://lyuzgtah13.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://8ejbnde1c0.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://8ejbnde1c0.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22098 ----------
+--------- début de correction de std22054 ----------
+correction std22054
+Avertissement, nom d'application non-conforme au format attendu std22054
+correction de PREPROD uri : https://p1af2c0yg2.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://p1af2c0yg2.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://8iusxw2w1k.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://8iusxw2w1k.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22054 ----------
+--------- début de correction de std22052 ----------
+correction hello-std22052
+correction de PREPROD uri : https://4exbt8jy4j.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://4exbt8jy4j.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://fr94yy8qe0.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://fr94yy8qe0.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22052 ----------
+--------- début de correction de std22050 ----------
+correction std22050
+Avertissement, nom d'application non-conforme au format attendu std22050
+correction de PROD uri : https://81aucwz41g.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://81aucwz41g.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://4lxu2sntuf.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://4lxu2sntuf.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22050 ----------
+--------- début de correction de std22095 ----------
+correction hello-std22095
+correction de PROD uri : https://e6z6ke5l55.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://e6z6ke5l55.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://rce718y77a.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://rce718y77a.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22095 ----------
+--------- début de correction de std22007 ----------
+correction std22007
+Avertissement, nom d'application non-conforme au format attendu std22007
+correction de PREPROD uri : https://d71m0k4c3d.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://d71m0k4c3d.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://0hlonux239.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://0hlonux239.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22007 ----------
+--------- début de correction de std22049 ----------
+correction std22049
+Avertissement, nom d'application non-conforme au format attendu std22049
+correction de PROD uri : https://7xhhtw85ae.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://7xhhtw85ae.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://qaojyxamzh.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://qaojyxamzh.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22049 ----------
+--------- début de correction de std22005 ----------
+correction hello-std22005
+correction de PREPROD uri : https://f7moztqze9.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://f7moztqze9.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://uy7hsj1ghh.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://uy7hsj1ghh.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22005 ----------
+--------- début de correction de std22047 ----------
+correction elise-std22047
+Avertissement, nom d'application non-conforme au format attendu elise-std22047
+correction de PROD uri : https://hcitazni38.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://hcitazni38.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://smuth2o0mj.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://smuth2o0mj.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22047 ----------
+--------- début de correction de std22048 ----------
+correction hello-std22048
+correction de PREPROD uri : https://mupmr80nia.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://mupmr80nia.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://kxrjjn3ga2.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://kxrjjn3ga2.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22048 ----------
+--------- début de correction de std22081 ----------
+correction hello-std22081
+correction de PREPROD uri : https://dcb9r3dltk.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://dcb9r3dltk.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://zws6izwawd.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://zws6izwawd.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22081 ----------
+--------- début de correction de std22082 ----------
+correction hello-std22082
+correction de PROD uri : https://dwb9tozahg.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://dwb9tozahg.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://fe1u2owwhf.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://fe1u2owwhf.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22082 ----------
+--------- début de correction de std22080 ----------
+correction std22080
+Avertissement, nom d'application non-conforme au format attendu std22080
+correction de PROD uri : https://df8xxkl890.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PROD https://df8xxkl890.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://4jjxnacop2.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://4jjxnacop2.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://8n98ixweaa.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://8n98ixweaa.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22080 ----------
+--------- début de correction de std22089 ----------
+correction hello-std22089
+correction de PROD uri : https://6amy1ermtd.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://6amy1ermtd.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://nmai4uhxgf.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PROD https://nmai4uhxgf.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://4wzl19xbhj.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://4wzl19xbhj.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22089 ----------
+--------- début de correction de std22045 ----------
+correction helloworld-std22045
+Avertissement, nom d'application non-conforme au format attendu helloworld-std22045
+correction de PROD uri : https://qz73hnps45.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://qz73hnps45.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://7k67jf2v36.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://7k67jf2v36.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22045 ----------
+--------- début de correction de std22001 ----------
+correction std22001
+Avertissement, nom d'application non-conforme au format attendu std22001
+correction de PROD uri : https://gxj6ygko2g.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://gxj6ygko2g.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://s46gpen8k5.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://s46gpen8k5.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22001 ----------
+--------- début de correction de std22046 ----------
+correction std22046
+Avertissement, nom d'application non-conforme au format attendu std22046
+correction de PREPROD uri : https://vdoehsx8me.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://vdoehsx8me.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://24y5rs9cle.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://24y5rs9cle.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22046 ----------
+--------- début de correction de std22087 ----------
+correction std22087
+Avertissement, nom d'application non-conforme au format attendu std22087
+correction de PROD uri : https://2leliva1m1.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://2leliva1m1.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://7v2h6jb756.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://7v2h6jb756.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22087 ----------
+--------- début de correction de std22043 ----------
+correction hello-std22043
+correction de PREPROD uri : https://2j9qfvenmh.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://2j9qfvenmh.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://uu2x1f8jo4.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://uu2x1f8jo4.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22043 ----------
+--------- début de correction de std22086 ----------
+correction hello-std22086
+correction de PREPROD uri : https://9duj5q7mca.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://9duj5q7mca.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22086 ----------
+--------- début de correction de std22083 ----------
+correction std22083
+Avertissement, nom d'application non-conforme au format attendu std22083
+correction de PROD uri : https://m2tss782c9.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://m2tss782c9.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://ycumm5tm8f.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://ycumm5tm8f.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22083 ----------
+--------- début de correction de std22119 ----------
+correction std22119
+Avertissement, nom d'application non-conforme au format attendu std22119
+correction de PREPROD uri : https://9nsn08cntd.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://9nsn08cntd.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://zbdju6zgmg.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://zbdju6zgmg.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22119 ----------
+--------- début de correction de std22038 ----------
+correction hello-std22038
+correction de PREPROD uri : https://7c4q8lmt6a.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://7c4q8lmt6a.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://8fp34qzxv1.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://8fp34qzxv1.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22038 ----------
+--------- début de correction de std22113 ----------
+correction hellostd22113
+Avertissement, nom d'application non-conforme au format attendu hellostd22113
+correction de PREPROD uri : https://6gr398km00.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://6gr398km00.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://uhru1cihnl.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://uhru1cihnl.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22113 ----------
+--------- début de correction de std22036 ----------
+correction tantely-std22036
+Avertissement, nom d'application non-conforme au format attendu tantely-std22036
+correction de PROD uri : https://3mye3jk2gl.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://3mye3jk2gl.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://ou40vqelxe.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://ou40vqelxe.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22036 ----------
+--------- début de correction de std22037 ----------
+correction hello-std22037
+correction de PROD uri : https://yuga3l0r7k.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://yuga3l0r7k.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://5rmdpybf10.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://5rmdpybf10.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22037 ----------
+--------- début de correction de std22070 ----------
+correction std22070
+Avertissement, nom d'application non-conforme au format attendu std22070
+correction de PREPROD uri : https://b70zg454hk.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://b70zg454hk.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://8htg24fm27.execute-api.eu-west-3.amazonaws.com/hello
+erreur lors de la lecture de l'endpoint, KO
+null
+environnement PROD https://8htg24fm27.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PROD uri : https://rvlyhjb0sk.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://rvlyhjb0sk.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22070 ----------
+--------- début de correction de std22078 ----------
+correction hello-std22078
+correction de PROD uri : https://e4vyslmlc7.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://e4vyslmlc7.execute-api.eu-west-3.amazonaws.com/hello KO
+correction de PREPROD uri : https://lxfsy74sol.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://lxfsy74sol.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22078 ----------
+--------- début de correction de std22079 ----------
+correction std22079
+Avertissement, nom d'application non-conforme au format attendu std22079
+correction de PROD uri : https://uknp42abi9.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://uknp42abi9.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://xc3qbocp7d.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://xc3qbocp7d.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22079 ----------
+--------- début de correction de std22076 ----------
+correction std22076
+Avertissement, nom d'application non-conforme au format attendu std22076
+correction de PREPROD uri : https://qc2tyy4en1.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://qc2tyy4en1.execute-api.eu-west-3.amazonaws.com/hello KO
+--------- fin de correction de std22076 ----------
+--------- début de correction de std22033 ----------
+correction std22033
+Avertissement, nom d'application non-conforme au format attendu std22033
+correction de PREPROD uri : https://593glon368.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://593glon368.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://igfnrkokkj.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://igfnrkokkj.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22033 ----------
+--------- début de correction de std22075 ----------
+correction hello-std22075
+correction de PREPROD uri : https://gad4jx5e5d.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://gad4jx5e5d.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22075 ----------
+--------- début de correction de std21060 ----------
+correction todo-std21060
+Avertissement, nom d'application non-conforme au format attendu todo-std21060
+correction de PROD uri : https://844d39nvw5.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://844d39nvw5.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PREPROD uri : https://f86kfjxeaj.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://f86kfjxeaj.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std21060 ----------
+--------- début de correction de std2019 ----------
+correction std2019
+Avertissement, nom d'application non-conforme au format attendu std2019
+correction de PREPROD uri : https://f9wb1nnvsj.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://f9wb1nnvsj.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://es8mkleeld.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://es8mkleeld.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std2019 ----------
+--------- début de correction de std22073 ----------
+correction secu-std22073
+Avertissement, nom d'application non-conforme au format attendu secu-std22073
+correction de PREPROD uri : https://v25u7nis5i.execute-api.eu-west-3.amazonaws.com/hello
+environnement PREPROD https://v25u7nis5i.execute-api.eu-west-3.amazonaws.com/hello OK
+correction de PROD uri : https://26eu4awe31.execute-api.eu-west-3.amazonaws.com/hello
+environnement PROD https://26eu4awe31.execute-api.eu-west-3.amazonaws.com/hello OK
+--------- fin de correction de std22073 ----------
+bon travail std22108
+score final std : std22108 preprod? 2 prod? 2
+score final std : std22106 preprod? 0 prod? 0
+bon travail std22029
+score final std : std22029 preprod? 2 prod? 2
+score final std : std22107 preprod? 0 prod? 0
+score final std : std22027 preprod? 0 prod? 0
+score final std : std22104 preprod? 0 prod? 0
+score final std : std22105 preprod? 2 prod? 0
+score final std : std22028 preprod? 2 prod? 0
+bon travail std22069
+score final std : std22069 preprod? 2 prod? 2
+bon travail std22025
+score final std : std22025 preprod? 2 prod? 2
+bon travail std22103
+score final std : std22103 preprod? 2 prod? 2
+score final std : std22026 preprod? 0 prod? 0
+score final std : std21092 preprod? 2 prod? 0
+score final std : std22100 preprod? 0 prod? 2
+bon travail std21099
+score final std : std21099 preprod? 2 prod? 2
+score final std : std22023 preprod? 0 prod? 0
+score final std : std22101 preprod? 0 prod? 0
+bon travail std22068
+score final std : std22068 preprod? 2 prod? 2
+bon travail std22065
+score final std : std22065 preprod? 2 prod? 2
+score final std : std22022 preprod? 0 prod? 0
+score final std : std22064 preprod? 0 prod? 0
+score final std : std22062 preprod? 0 prod? 0
+score final std : std22019 preprod? 0 prod? 0
+score final std : std22016 preprod? 0 prod? 0
+bon travail std22017
+score final std : std22017 preprod? 2 prod? 2
+bon travail std22058
+score final std : std22058 preprod? 2 prod? 2
+bon travail std22093
+score final std : std22093 preprod? 2 prod? 2
+score final std : std22056 preprod? 2 prod? 0
+score final std : std22013 preprod? 0 prod? 0
+score final std : std21089 preprod? 0 prod? 0
+bon travail std22098
+score final std : std22098 preprod? 2 prod? 2
+score final std : std22054 preprod? 0 prod? 0
+bon travail std22052
+score final std : std22052 preprod? 2 prod? 2
+score final std : std21084 preprod? 0 prod? 0
+score final std : std22050 preprod? 0 prod? 0
+score final std : std22095 preprod? 2 prod? 0
+bon travail std22007
+score final std : std22007 preprod? 2 prod? 2
+bon travail std22049
+score final std : std22049 preprod? 2 prod? 2
+bon travail std22005
+score final std : std22005 preprod? 2 prod? 2
+bon travail std22047
+score final std : std22047 preprod? 2 prod? 2
+bon travail std22048
+score final std : std22048 preprod? 2 prod? 2
+bon travail std22081
+score final std : std22081 preprod? 2 prod? 2
+bon travail std22082
+score final std : std22082 preprod? 2 prod? 2
+score final std : std22080 preprod? 2 prod? 0
+bon travail std22089
+score final std : std22089 preprod? 2 prod? 2
+score final std : std22045 preprod? 0 prod? 0
+bon travail std22001
+score final std : std22001 preprod? 2 prod? 2
+score final std : std22046 preprod? 0 prod? 0
+bon travail std22087
+score final std : std22087 preprod? 2 prod? 2
+bon travail std22043
+score final std : std22043 preprod? 2 prod? 2
+score final std : std22044 preprod? 0 prod? 0
+score final std : std22085 preprod? 0 prod? 0
+score final std : std22086 preprod? 0 prod? 0
+bon travail std22083
+score final std : std22083 preprod? 2 prod? 2
+bon travail std22119
+score final std : std22119 preprod? 2 prod? 2
+bon travail std22038
+score final std : std22038 preprod? 2 prod? 2
+score final std : std22113 preprod? 0 prod? 0
+bon travail std22036
+score final std : std22036 preprod? 2 prod? 2
+score final std : std22037 preprod? 0 prod? 0
+bon travail std22070
+score final std : std22070 preprod? 2 prod? 2
+score final std : std22078 preprod? 0 prod? 0
+bon travail std22079
+score final std : std22079 preprod? 2 prod? 2
+score final std : std22076 preprod? 0 prod? 0
+bon travail std22033
+score final std : std22033 preprod? 2 prod? 2
+score final std : std22074 preprod? 0 prod? 0
+score final std : std22075 preprod? 2 prod? 0
+bon travail std21060
+score final std : std21060 preprod? 2 prod? 2
+bon travail std2019
+score final std : std2019 preprod? 2 prod? 2
+score final std : tcr21001 preprod? 0 prod? 0
+bon travail std22073
+score final std : std22073 preprod? 2 prod? 2
+
+BUILD SUCCESSFUL in 3m 16s
+3 actionable tasks: 2 executed, 1 up-to-date
+9:23:45 PM: Execution finished ':com.corrector.Main.main()'.
