@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
+import java.net.http.HttpResponse.BodyHandlers;
 import java.util.function.Function;
 
 public class EnvironmentCorrector implements Function<DeployedEnv, CorrectedEnv> {
@@ -18,24 +18,20 @@ public class EnvironmentCorrector implements Function<DeployedEnv, CorrectedEnv>
   @Override
   public CorrectedEnv apply(DeployedEnv env) {
     try {
-      System.out.println("correcting " + env);
       URI uri = env.helloUri();
+      System.out.println("correction de " + env.envType() + " uri : " + uri);
       var response =
-          httpClient.send(
-              HttpRequest.newBuilder().GET().uri(uri).build(),
-              HttpResponse.BodyHandlers.ofString());
+          httpClient.send(HttpRequest.newBuilder().GET().uri(uri).build(), BodyHandlers.ofString());
       if (response.statusCode() == 200) {
-        CorrectedEnv correctedEnv = new CorrectedEnv(env, OK);
-        System.out.println(correctedEnv);
-        return correctedEnv;
+        System.out.println("environnement " + env.envType() + " " + env.helloUri() + " OK");
+        return new CorrectedEnv(env, OK);
       }
     } catch (IOException | InterruptedException e) {
-      System.out.println("EXCEPTION");
+      System.out.println("erreur lors de la lecture de l'endpoint, KO");
       System.out.println(e.getMessage());
     }
 
-    CorrectedEnv correctedEnv = new CorrectedEnv(env, KO);
-    System.out.println(correctedEnv);
-    return correctedEnv;
+    System.out.println("environnement " + env.envType() + " " + env.helloUri() + " KO");
+    return new CorrectedEnv(env, KO);
   }
 }

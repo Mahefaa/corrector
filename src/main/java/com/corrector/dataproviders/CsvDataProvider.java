@@ -16,6 +16,9 @@ public class CsvDataProvider implements DataProvider<List<CsvUserRecord>> {
 
   @Override
   public List<CsvUserRecord> apply(String s) {
-    return reader.apply(resourceLoader.apply(s));
+    System.out.println("chargement des données CSV");
+    var read = reader.apply(resourceLoader.apply(s));
+    System.out.println(read.size() + " données chargées");
+    return read;
   }
 }

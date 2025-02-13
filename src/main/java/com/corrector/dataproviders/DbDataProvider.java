@@ -17,6 +17,8 @@ public class DbDataProvider implements DataProvider<List<DatabaseDeployedAppReco
   @Override
   public List<DatabaseDeployedAppRecord> apply(String s) {
     System.out.println("chargement des données de la base : " + s);
-    return reader.apply(resourceLoader.apply(s));
+    var read = reader.apply(resourceLoader.apply(s));
+    System.out.println(read.size() + " données chargées");
+    return read;
   }
 }

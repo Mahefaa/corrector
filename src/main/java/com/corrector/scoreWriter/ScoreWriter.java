@@ -4,6 +4,7 @@ import static org.apache.commons.csv.CSVFormat.DEFAULT;
 
 import com.corrector.model.corrected.CorrectedApp;
 import com.corrector.model.csv.CsvUserRecord;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.Instant;
@@ -18,11 +19,11 @@ public class ScoreWriter {
 
   public ScoreWriter() {}
 
-  @SneakyThrows
-  public void writeScores(
+  public File writeScores(
       List<CsvUserRecord> students, Map<String, List<CorrectedApp>> evaluatedStudents) {
     Map<String, List<CorrectedApp>> copy = new HashMap<>(evaluatedStudents);
-    FileWriter sw = new FileWriter(Instant.now().toString() + "_answers.csv");
+    File output = newFile();
+    FileWriter sw = getFileWriter(output);
     CSVFormat csvFormat = DEFAULT.builder().setHeader("std", "preprod", "prod").build();
     students.forEach(
         student -> copy.putIfAbsent(student.stdLowercase(), List.of(CorrectedApp.empty())));
@@ -31,7 +32,7 @@ public class ScoreWriter {
           (std, evaluatedApps) -> {
             if (evaluatedApps.stream()
                 .anyMatch(correctedApp -> correctedApp.isProdOk() && correctedApp.isPreprodOk())) {
-              System.out.println("well done student " + std);
+              System.out.println("bon travail " + std);
               newline(printer, std, 2, 2);
               return;
             } else if (evaluatedApps.stream()
@@ -49,13 +50,25 @@ public class ScoreWriter {
               return;
             }
           });
+      return output;
     } catch (IOException e) {
       e.printStackTrace();
+      throw new RuntimeException(e);
     }
   }
 
+  private static File newFile() {
+    return new File(Instant.now().toString() + "_answers.csv");
+  }
+
+  @SneakyThrows
+  private static FileWriter getFileWriter(File file) {
+    return new FileWriter(file);
+  }
+
   private static void newline(CSVPrinter printer, String std, int preprodScore, int prodScore) {
-    System.out.println("std : " + std + " preprod? " + preprodScore + " prod? " + prodScore);
+    System.out.println(
+        "score final std : " + std + " preprod? " + preprodScore + " prod? " + prodScore);
     try {
       printer.printRecord(std, preprodScore, prodScore);
     } catch (IOException e) {

@@ -17,9 +17,10 @@ public class AppCorrector implements Function<App, CorrectedApp> {
 
   @Override
   public CorrectedApp apply(App app) {
-    System.out.println("correcting " + app);
+    System.out.println("correction " + app.appName());
     if (!regex.matcher(app.appName()).matches()) {
-      System.out.println("bad app name");
+      System.out.println(
+          "Avertissement, nom d'application non-conforme au format attendu " + app.appName());
     }
     List<CorrectedEnv> correctedEnvs =
         app.environments().stream().map(environmentCorrector).toList();

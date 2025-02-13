@@ -38,17 +38,17 @@ public class Corrector {
                                     .toList()))));
     grouped.forEach(
         (std, app) -> {
-          System.out.println("--------- BEGIN correcting ----------" + std);
+          System.out.println("--------- début de correction de " + std + " ---------- ");
           var corrected = evaluateApp(app);
           if (res.containsKey(std)) {
-            System.out.println(std + " has 1 more app " + corrected.name());
+            System.out.println(std + " a + de 1 application à corriger" + corrected.name());
             res.get(std).add(corrected);
           } else {
             var array = new ArrayList<CorrectedApp>();
             array.add(corrected);
             res.put(std, array);
           }
-          System.out.println("--------- END correcting ----------" + std);
+          System.out.println("--------- fin de correction de " + std + " ---------- ");
         });
 
     return res;

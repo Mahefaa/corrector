@@ -1,0 +1,17 @@
+ [{
+  "app_id": "kD08iQOdDP_f-dUDkzTct",
+  "id_user": "e477c39a-666f-4082-a4b5-07ab43cbac05",
+  "app_name": "std22029",
+  "std": "std22029",
+  "environment_type": "PREPROD",
+  "deployed_url": "https://l14nsjdn2d.execute-api.eu-west-3.amazonaws.com",
+  "deployed_at": "2025-02-10T12:24:34.445Z"
+}, {
+  "app_id": "kD08iQOdDP_f-dUDkzTct",
+  "id_user": "e477c39a-666f-4082-a4b5-07ab43cbac05",
+  "app_name": "std22029",
+  "std": "std22029",
+  "environment_type": "PROD",
+  "deployed_url": "https://72thj20gdh.execute-api.eu-west-3.amazonaws.com",
+  "deployed_at": "2025-02-11T04:23:41.968Z"
+}]
