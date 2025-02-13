@@ -1,0 +1,228 @@
+4:19:37 PM: Executing ':com.corrector.Main.main()'...
+
+
+> Task :compileJava
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+Note: /home/mahefa/git/jc-corrector/src/main/java/com/corrector/model/csv/reader/CsvUserRecordReader.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :com.corrector.Main.main()
+chargement des données de la base : prod-jcloudify_apps_2025-02-13_14-53-29.json
+--------- BEGIN correcting ----------std22038
+correcting App[appName=hello-std22038, environments=[DeployedEnv[envType=PREPROD, uri=https://7c4q8lmt6a.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://8fp34qzxv1.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://7c4q8lmt6a.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://7c4q8lmt6a.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PROD, uri=https://8fp34qzxv1.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://8fp34qzxv1.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22038
+--------- BEGIN correcting ----------std22027
+correcting App[appName=hello-std22027, environments=[DeployedEnv[envType=PREPROD, uri=https://p7btlcszf3.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://b44a7057dl.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://p7btlcszf3.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://p7btlcszf3.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PROD, uri=https://b44a7057dl.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://b44a7057dl.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+--------- END correcting ----------std22027
+--------- BEGIN correcting ----------std22005
+correcting App[appName=hello-std22005, environments=[DeployedEnv[envType=PROD, uri=https://uy7hsj1ghh.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://f7moztqze9.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://uy7hsj1ghh.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://uy7hsj1ghh.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PREPROD, uri=https://f7moztqze9.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://f7moztqze9.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22005
+--------- BEGIN correcting ----------std22028
+correcting App[appName=hello-std22028, environments=[DeployedEnv[envType=PREPROD, uri=https://uymwmue68j.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://uymwmue68j.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://uymwmue68j.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22028
+--------- BEGIN correcting ----------std22048
+correcting App[appName=hello-std22048, environments=[DeployedEnv[envType=PREPROD, uri=https://mupmr80nia.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://kxrjjn3ga2.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://mupmr80nia.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://mupmr80nia.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PROD, uri=https://kxrjjn3ga2.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://kxrjjn3ga2.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22048
+--------- BEGIN correcting ----------std22037
+correcting App[appName=hello-std22037, environments=[DeployedEnv[envType=PREPROD, uri=https://5rmdpybf10.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://yuga3l0r7k.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://5rmdpybf10.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://5rmdpybf10.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PROD, uri=https://yuga3l0r7k.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://yuga3l0r7k.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+--------- END correcting ----------std22037
+--------- BEGIN correcting ----------std22081
+correcting App[appName=hello-std22081, environments=[DeployedEnv[envType=PREPROD, uri=https://dcb9r3dltk.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://zws6izwawd.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://dcb9r3dltk.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://dcb9r3dltk.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PROD, uri=https://zws6izwawd.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://zws6izwawd.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22081
+--------- BEGIN correcting ----------std22082
+correcting App[appName=hello-std22082, environments=[DeployedEnv[envType=PROD, uri=https://dwb9tozahg.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://fe1u2owwhf.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://dwb9tozahg.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://dwb9tozahg.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PREPROD, uri=https://fe1u2owwhf.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://fe1u2owwhf.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22082
+--------- BEGIN correcting ----------std22089
+correcting App[appName=hello-std22089, environments=[DeployedEnv[envType=PROD, uri=https://nmai4uhxgf.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://6amy1ermtd.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://4wzl19xbhj.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://nmai4uhxgf.execute-api.eu-west-3.amazonaws.com]
+null
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://nmai4uhxgf.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PROD, uri=https://6amy1ermtd.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://6amy1ermtd.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PREPROD, uri=https://4wzl19xbhj.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://4wzl19xbhj.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22089
+--------- BEGIN correcting ----------std22078
+correcting App[appName=hello-std22078, environments=[DeployedEnv[envType=PROD, uri=https://e4vyslmlc7.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://lxfsy74sol.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://e4vyslmlc7.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://e4vyslmlc7.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PREPROD, uri=https://lxfsy74sol.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://lxfsy74sol.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+--------- END correcting ----------std22078
+--------- BEGIN correcting ----------std22098
+correcting App[appName=hello-std22098, environments=[DeployedEnv[envType=PREPROD, uri=https://8ejbnde1c0.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://8ejbnde1c0.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://8ejbnde1c0.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22098
+--------- BEGIN correcting ----------std22043
+correcting App[appName=hello-std22043, environments=[DeployedEnv[envType=PREPROD, uri=https://2j9qfvenmh.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PROD, uri=https://uu2x1f8jo4.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://2j9qfvenmh.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://2j9qfvenmh.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PROD, uri=https://uu2x1f8jo4.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://uu2x1f8jo4.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22043
+--------- BEGIN correcting ----------std22052
+correcting App[appName=hello-std22052, environments=[DeployedEnv[envType=PROD, uri=https://fr94yy8qe0.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://4exbt8jy4j.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://fr94yy8qe0.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://fr94yy8qe0.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+correcting DeployedEnv[envType=PREPROD, uri=https://4exbt8jy4j.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://4exbt8jy4j.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22052
+--------- BEGIN correcting ----------std22086
+correcting App[appName=hello-std22086, environments=[DeployedEnv[envType=PREPROD, uri=https://9duj5q7mca.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://9duj5q7mca.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://9duj5q7mca.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+--------- END correcting ----------std22086
+--------- BEGIN correcting ----------std22075
+correcting App[appName=hello-std22075, environments=[DeployedEnv[envType=PREPROD, uri=https://gad4jx5e5d.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PREPROD, uri=https://gad4jx5e5d.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://gad4jx5e5d.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22075
+--------- BEGIN correcting ----------std22064
+correcting App[appName=hello-std22064, environments=[DeployedEnv[envType=PROD, uri=https://hjj9k87ya3.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://2riej0jyke.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://hjj9k87ya3.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://hjj9k87ya3.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PREPROD, uri=https://2riej0jyke.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://2riej0jyke.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+--------- END correcting ----------std22064
+--------- BEGIN correcting ----------std22095
+correcting App[appName=hello-std22095, environments=[DeployedEnv[envType=PROD, uri=https://e6z6ke5l55.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://rce718y77a.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://e6z6ke5l55.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://e6z6ke5l55.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PREPROD, uri=https://rce718y77a.execute-api.eu-west-3.amazonaws.com]
+
+Unknown event 0x800 for /home/mahefa/git/jc-corrector/src/main/java/com/corrector/model/evaluated
+Received unknown event for /home/mahefa/git/jc-corrector/src/main/java/com/corrector/model/evaluated
+
+> Task :com.corrector.Main.main()
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://rce718y77a.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=OK]
+--------- END correcting ----------std22095
+--------- BEGIN correcting ----------std22062
+correcting App[appName=hello-std22062, environments=[DeployedEnv[envType=PROD, uri=https://26cq6plp31.execute-api.eu-west-3.amazonaws.com], DeployedEnv[envType=PREPROD, uri=https://eirvcmh1th.execute-api.eu-west-3.amazonaws.com]]]
+correcting DeployedEnv[envType=PROD, uri=https://26cq6plp31.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PROD, uri=https://26cq6plp31.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+correcting DeployedEnv[envType=PREPROD, uri=https://eirvcmh1th.execute-api.eu-west-3.amazonaws.com]
+CorrectedEnv[deployedEnv=DeployedEnv[envType=PREPROD, uri=https://eirvcmh1th.execute-api.eu-west-3.amazonaws.com], envEvaluationResult=KO]
+--------- END correcting ----------std22062
+std : STD22056 preprod? 0 prod? 0
+std : STD22013 preprod? 0 prod? 0
+std : STD21089 preprod? 0 prod? 0
+std : STD22054 preprod? 0 prod? 0
+std : STD22098 preprod? 0 prod? 0
+std : std22027 preprod? 0 prod? 0
+std : STD22052 preprod? 0 prod? 0
+std : STD21084 preprod? 0 prod? 0
+std : std22028 preprod? 2 prod? 0
+std : STD22050 preprod? 0 prod? 0
+std : STD22095 preprod? 0 prod? 0
+std : STD22093 preprod? 0 prod? 0
+std : STD22019 preprod? 0 prod? 0
+std : STD22016 preprod? 0 prod? 0
+std : std22064 preprod? 0 prod? 0
+std : STD22017 preprod? 0 prod? 0
+std : STD22058 preprod? 0 prod? 0
+std : std22062 preprod? 0 prod? 0
+std : STD22045 preprod? 0 prod? 0
+std : STD22001 preprod? 0 prod? 0
+std : STD22089 preprod? 0 prod? 0
+std : STD22046 preprod? 0 prod? 0
+std : STD22087 preprod? 0 prod? 0
+std : STD22043 preprod? 0 prod? 0
+std : STD22044 preprod? 0 prod? 0
+std : STD22085 preprod? 0 prod? 0
+std : STD22086 preprod? 0 prod? 0
+std : STD22083 preprod? 0 prod? 0
+std : STD22081 preprod? 0 prod? 0
+std : STD22082 preprod? 0 prod? 0
+std : STD22080 preprod? 0 prod? 0
+std : std22098 preprod? 2 prod? 0
+std : STD22007 preprod? 0 prod? 0
+std : std22052 preprod? 2 prod? 2
+std : STD22005 preprod? 0 prod? 0
+std : STD22049 preprod? 0 prod? 0
+std : STD22047 preprod? 0 prod? 0
+std : std22095 preprod? 2 prod? 0
+std : STD22048 preprod? 0 prod? 0
+std : STD22078 preprod? 0 prod? 0
+std : STD22079 preprod? 0 prod? 0
+std : STD22076 preprod? 0 prod? 0
+std : STD22033 preprod? 0 prod? 0
+std : std22005 preprod? 2 prod? 2
+std : STD22074 preprod? 0 prod? 0
+std : STD22075 preprod? 0 prod? 0
+std : TCR21001 preprod? 0 prod? 0
+std : STD21060 preprod? 0 prod? 0
+std : std22048 preprod? 2 prod? 2
+std : STD22073 preprod? 0 prod? 0
+std : STD22070 preprod? 0 prod? 0
+std : std22081 preprod? 2 prod? 2
+std : std22082 preprod? 2 prod? 2
+std : std22089 preprod? 2 prod? 2
+std : std22043 preprod? 2 prod? 2
+std : STD22038 preprod? 0 prod? 0
+std : std22086 preprod? 0 prod? 0
+std : STD22036 preprod? 0 prod? 0
+std : STD22113 preprod? 0 prod? 0
+std : STD22037 preprod? 0 prod? 0
+std : std22119 preprod? 0 prod? 0
+std : STD22100 preprod? 0 prod? 0
+std : STD21099 preprod? 0 prod? 0
+std : STD22023 preprod? 0 prod? 0
+std : STD22068 preprod? 0 prod? 0
+std : STD22101 preprod? 0 prod? 0
+std : STD22065 preprod? 0 prod? 0
+std : STD22022 preprod? 0 prod? 0
+std : std22038 preprod? 2 prod? 2
+std : STD22064 preprod? 0 prod? 0
+std : std22037 preprod? 0 prod? 0
+std : STD22062 preprod? 0 prod? 0
+std : STD21092 preprod? 0 prod? 0
+std : std22078 preprod? 0 prod? 0
+std : STD22108 preprod? 0 prod? 0
+std : STD22029 preprod? 0 prod? 0
+std : STD22106 preprod? 0 prod? 0
+std : STD22107 preprod? 0 prod? 0
+std : STD22104 preprod? 0 prod? 0
+std : STD22027 preprod? 0 prod? 0
+std : std22075 preprod? 2 prod? 0
+std : STD22105 preprod? 0 prod? 0
+std : STD22028 preprod? 0 prod? 0
+std : STD22025 preprod? 0 prod? 0
+std : STD22069 preprod? 0 prod? 0
+std : STD22026 preprod? 0 prod? 0
+
+BUILD SUCCESSFUL in 59s
+3 actionable tasks: 2 executed, 1 up-to-date
+4:20:36 PM: Execution finished ':com.corrector.Main.main()'.
